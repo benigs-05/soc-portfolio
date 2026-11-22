@@ -27,6 +27,10 @@ Attackers can:
 3. Cause damage to running services 
 
 
+![Screenshot](../../assets/images/pasted-image-20260917232945.png)
+
+
+
 Logs from firewall, the server itself, and monitoring systems, and the network traffic 
 
 **Common Server-Side attacks**
@@ -41,6 +45,10 @@ Logs from firewall, the server itself, and monitoring systems, and the network t
 # Log-Based Detection
 
 Web server can leave evidence in its access and server logs. 
+
+
+![Screenshot](../../assets/images/pasted-image-20260917233915.png)
+
 1. Client IP
 2. Timestamp + Requested Page 
 3. Status Code 

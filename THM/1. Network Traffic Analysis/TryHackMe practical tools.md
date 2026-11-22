@@ -26,22 +26,50 @@ https://www.phishtool.com/ automates the process for centralizing the analyzatio
 
 
 
+![Screenshot](../../assets/images/pasted-image-20260830204409.png)
+
+
+
 Can **Merge**, can **sniff**
 View Statistics for - hash, capture time, capture file comments
 
+
+![Screenshot](../../assets/images/pasted-image-20260830214102.png)
+
+
 GO TO PACKET OP 
+
+
+![Screenshot](../../assets/images/pasted-image-20260830214334.png)
+
 
 searching is kind of OP too 
 **Marking packets** 
 **Commenting on packets**
 **Can export specific packets**
 
+
+![Screenshot](../../assets/images/pasted-image-20260830214556.png)
+
+
 CAN EXTRACT WTFFF OP 
+
+
+
+![Screenshot](../../assets/images/pasted-image-20260830214649.png)
 
 
 Changing time for better look 
 
 
+
+![Screenshot](../../assets/images/pasted-image-20260830214735.png)
+
+
+
+
+
+![Screenshot](../../assets/images/pasted-image-20260830214901.png)
 
 
 
@@ -51,8 +79,16 @@ Analyze -> Show Expert Info to get analyzation
 
 **Click on the row -> apply filter, and it'll focus on that**
 
+
+![Screenshot](../../assets/images/pasted-image-20260830220507.png)
+
+
 Conversation filter - for the conversation of two hosts 
 Colourise conversation 
 Prepare as filter to just choose but still not apply it until so
 Apply as column adds a column based on the packet details that you chouse 
 Follow stream 
+
+
+![Screenshot](../../assets/images/pasted-image-20260830222001.png)
+

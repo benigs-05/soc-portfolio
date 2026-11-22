@@ -17,21 +17,49 @@ Usually the TXT record that contained a command would be read by the malware
 	3. Verifying and validating alert 
 3. 
 
+
+![Screenshot](../../../assets/images/pasted-image-20260829141031.png)
+
+
 **What can we monitor?**
 
 
+![Screenshot](../../../assets/images/pasted-image-20260829140009.png)
+
+
+
+
+![Screenshot](../../../assets/images/pasted-image-20260830165759.png)
+
+
 1. Application - the header and the data itself (payload)
+
+
+![Screenshot](../../../assets/images/pasted-image-20260829140228.png)
+
 
 - **application** = broad category
 - **zip** = specific subtype / file format
 1. Transport 
 
+
+![Screenshot](../../../assets/images/pasted-image-20260829140650.png)
+
+
 Firewall logs can 
+
+
+![Screenshot](../../../assets/images/pasted-image-20260829142805.png)
+
 
 packet capture inspection from Wireshark
 
 IP Fragmentation attacks:  happens when a packet is too large for the network path’s MTU. “This packet is too big, so split it into smaller IP fragments and reassemble it at the destination.”
 A fragmentation attack abuses that process by sending fragments that are weird, tiny, missing, or overlapping so that:
+
+
+![Screenshot](../../../assets/images/pasted-image-20260830171825.png)
+
 
 offset means data started at = value and len states next data should start at 1480 [MF] = more fragments coming 
 
@@ -40,6 +68,10 @@ above is suspicious since 2 and 3 states that both of them states that they cont
 packet 4 says it couldn't reassemble it. but to reassemble it, one has to be chosen and the other discarded. **The mismatch in packet is the evasion**
 
 TCP Example 
+
+
+![Screenshot](../../../assets/images/pasted-image-20260830175954.png)
+
 for the TCP overlap issue
 
 2 will still be used, but depending on how it is reconstructed it may use the whole packet 2, or might use packet 3s 10-20
@@ -84,10 +116,22 @@ So we can use sequence number and offset value to determine fragmentation attack
 
 
 
+![Screenshot](../../../assets/images/pasted-image-20260831133955.png)
+
+
+
+
+![Screenshot](../../../assets/images/pasted-image-20260831134033.png)
+
+
 
 # 2. **Protocol Hierarchy** - views protocol in a tree. For viewing overall usage 
 		**We can filter certain conversations and see a protocol hierarchy for that conversation**
 
+
+
+
+![Screenshot](../../../assets/images/pasted-image-20260831134312.png)
 
 
 
@@ -96,9 +140,21 @@ So we can use sequence number and offset value to determine fragmentation attack
 
 
 
+![Screenshot](../../../assets/images/pasted-image-20260831134756.png)
+
+
+
 # 4. **Endpoint** - provides more information about the host 
 
 
+
+![Screenshot](../../../assets/images/pasted-image-20260831135215.png)
+
+
+
+
+
+![Screenshot](../../../assets/images/pasted-image-20260831135253.png)
 
 
 
@@ -108,11 +164,23 @@ can also resolve name for **IP and and transport names**
 
 
 
+![Screenshot](../../../assets/images/pasted-image-20260831135408.png)
+
+
+
 https://hackertarget.com/geoip-ip-location-lookup/
 
 
 
+![Screenshot](../../../assets/images/pasted-image-20260831135719.png)
+
+
+
 GeoIP extension for wireshark 
+
+
+
+![Screenshot](../../../assets/images/pasted-image-20260831140428.png)
 
 
 
@@ -125,10 +193,22 @@ total bytes = **Tx + Rx or the Bytes** part
 
 # **Statistics** -> **HTTP** 
 
+
+![Screenshot](../../../assets/images/pasted-image-20260831141828.png)
+
+
 # **Statistics** -> **HTTP** -> **Request** 
 
 
+![Screenshot](../../../assets/images/pasted-image-20260831141910.png)
+
+
+
 # **Statistics** -> **HTTP** -> **Request** **Sequence**
+
+
+![Screenshot](../../../assets/images/pasted-image-20260831141955.png)
+
 
 
 # Packet Filtering | Principles

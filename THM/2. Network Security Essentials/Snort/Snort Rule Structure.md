@@ -1,6 +1,14 @@
 
 
 
+![Screenshot](../../../assets/images/pasted-image-20260917113013.png)
+
+
+
+
+
+![Screenshot](../../../assets/images/pasted-image-20260917113045.png)
+
 
 
 Alert (Type of action)- IDS 
@@ -21,7 +29,15 @@ Protocols:
 
 # For IP 
 
+
+![Screenshot](../../../assets/images/pasted-image-20260917113455.png)
+
+
 # For Ports 
+
+
+![Screenshot](../../../assets/images/pasted-image-20260917113523.png)
+
 
 
 Direction 
@@ -32,9 +48,17 @@ Direction
 # Rules options 
 
 
+![Screenshot](../../../assets/images/pasted-image-20260917113804.png)
+
+
+
 
 
 # Payload options within rules 
+
+
+
+![Screenshot](../../../assets/images/pasted-image-20260917113921.png)
 
 
 

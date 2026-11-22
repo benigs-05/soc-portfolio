@@ -55,6 +55,10 @@ They can use this for:
 
 
 
+![Screenshot](../../assets/images/pasted-image-20260918145438.png)
+
+
+
 # HTTP requests in rapid succession
 1. Directory fuzzing, repeated GET requests to different paths 
 	1. Attacker is checking where he can upload web shells 

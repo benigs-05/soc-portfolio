@@ -15,6 +15,10 @@ Most common web servers that we might encounter:
 
 
 
+![Screenshot](../../assets/images/pasted-image-20260917224303.png)
+
+
+
 Client -> Server -> Machine 
 
 

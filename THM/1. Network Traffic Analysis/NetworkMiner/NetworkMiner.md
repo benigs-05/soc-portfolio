@@ -37,3 +37,9 @@ Supports:
 	1. Used for grabbing the low hanging fruit before deeper investigation 
 
 
+
+
+![Screenshot](../../../assets/images/pasted-image-20260914141841.png)
+
+![Screenshot](../../../assets/images/pasted-image-20260914141857.png)
+

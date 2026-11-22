@@ -37,6 +37,10 @@ Types of attacks:
 # Log Sample 
 
 
+![Screenshot](../../assets/images/pasted-image-20260918171941.png)
+
+
+
 1. Normal requests 
 2. Burst of attempts 
 3. 503 error 

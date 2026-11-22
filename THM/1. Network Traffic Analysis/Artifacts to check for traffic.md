@@ -2,7 +2,15 @@
 2. DNS Queries and Replies (So the content itself) - helps us determine the nature of the connection 
 3. Check records since this can be a vector to send commands 
 
+
+![Screenshot](../../assets/images/pasted-image-20260829140806.png)
+
+
 We can monitor the Application header. We can get the domain, the directory. And the response can also provide that
+
+
+![Screenshot](../../assets/images/pasted-image-20260829140859.png)
+
 
 
 **IPs, Ports and Flags**
@@ -62,6 +70,12 @@ Firewall logs
 
 For this packets (Rules - TCP data (Which is Len) [dependent on the value of the data], and SYN/FIN [1] consumes space)
 1st packet  - sender initiates a connection 
+
+
+![Screenshot](../../assets/images/pasted-image-20260829142923.png)
+
+![Screenshot](../../assets/images/pasted-image-20260830162441.png)
+
 
 
 	 1st line's whole frame size is **74**, so it includes the IP, TCP headers, Application
